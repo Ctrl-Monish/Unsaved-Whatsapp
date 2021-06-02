@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
         intent.data = Uri.parse("https://wa.me/$data")
         startActivity(intent)
+        finish()
         //check if the users device has whatsapp installed or not
 //        if (packageManager.resolveActivity(intent,0) != null){
 //            startActivity(intent)
